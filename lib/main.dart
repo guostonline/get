@@ -59,7 +59,7 @@ class MyApp extends StatelessWidget {
                     _controller.increment();
                     Navigator.pop(context);
 
-                    Get.snackbar("title", "waaaaw");
+                    Get.snackbar("${_controller.count.value}", "waaaaw");
                   },
                 )
               ],
