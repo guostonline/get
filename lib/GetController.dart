@@ -3,6 +3,6 @@ import 'package:get/get.dart';
 class CounterController extends GetxController {
   RxInt count = 0.obs;
 
-  increment() => count++;
+  increment() => count.value = 10;
   decrement() => count--;
 }
